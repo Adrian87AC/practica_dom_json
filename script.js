@@ -121,3 +121,4 @@ Usa table, thead y tbody generados con createElement().
 5. Incluye otro botón general para clonar el último usuario mostrado.
 
 Usa createElement(), appendChild(), remove(), cloneNode(), y Bootstrap para los estilos.
+*/
