@@ -11,6 +11,8 @@ document.getElementsByTagName("p")[0].style.color = "lightgreen";
 Usa getElementsByClassName para recorrerlos con un for y cambiar el color de fondo a
 gris.*/
 
+
+
 //Ejercicio 3: Sección con querySelector
 /*
 Usa querySelector para seleccionar el primer <div> con clase .caja y cambia su borde y
