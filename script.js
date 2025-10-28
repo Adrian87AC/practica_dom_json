@@ -32,6 +32,8 @@ gris.*/
 })();
 
 
+
+
 //Ejercicio 3: Sección con querySelector
 /*
 Usa querySelector para seleccionar el primer <div> con clase .caja y cambia su borde y
