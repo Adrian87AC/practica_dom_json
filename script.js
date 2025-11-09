@@ -1,3 +1,107 @@
+/*
+EJERCICIOS DOM Y JSON - Comentarios explicativos
+
+Ejercicio 1: 
+- Lo más básico que hay: pillar un título y un párrafo
+- Cambiarles el texto y el color
+- Es como el "Hola mundo" del DOM
+
+Ejercicio 2:
+- Crear tres párrafos con clase 'texto'
+- Ponerles fondo gris a todos de una vez
+- Para practicar cómo seleccionar varios elementos
+
+Ejercicio 3:
+- Usar querySelector para pillar una caja
+- Cambiarle el borde y el fondo
+- Es más fácil que getElementById porque usa selectores CSS
+
+Ejercicio 4:
+- Crear tres botones con clase btn-dom
+- Cambiarles el texto a todos de golpe con forEach
+- Útil cuando tienes que modificar varios elementos iguales
+
+Ejercicio 5:
+- Ver qué pasa con getElementsByTagName vs querySelectorAll
+- Cuando añades elementos nuevos, uno se actualiza solo y el otro no
+- Para entender las colecciones vivas y estáticas
+
+Ejercicio 6:
+- Crear un párrafo desde cero con JavaScript
+- Es la base para crear elementos dinámicamente
+- Usar createElement y appendChild
+
+Ejercicio 7:
+- Crear un div y meterle texto dentro
+- Usar createTextNode para el texto
+- Otra forma de crear contenido
+
+Ejercicio 8:
+- Crear una imagen y ponerle src y alt
+- Aprender a usar setAttribute
+- Para elementos que necesitan atributos
+
+Ejercicio 9:
+- Crear una tarjeta de Bootstrap completa desde JS
+- Ya es más complejo porque hay que crear y anidar varios elementos
+- Para practicar crear estructuras más grandes
+
+Ejercicio 10:
+- Probar diferentes formas de meter elementos en una lista
+- append, prepend, before, after
+- Ver las diferentes posiciones donde podemos insertar
+
+Ejercicio 11:
+- Añadir botones para eliminar y reemplazar elementos
+- Útil cuando quieres que el usuario pueda quitar o cambiar cosas
+- Usar remove() y replaceWith()
+
+Ejercicio 12:
+- Clonar una tarjeta entera
+- Como hacer copy-paste pero desde código
+- Usar cloneNode(true) para copiar todo
+
+Ejercicio 13:
+- Hacer una lista que crece al pulsar un botón
+- Para practicar eventos y crear elementos dinámicamente
+- Cada click añade un nuevo elemento
+
+Ejercicio 14:
+- Quitar el último elemento de una lista
+- De dos formas diferentes: remove() y removeChild()
+- Para ver diferentes maneras de hacer lo mismo
+
+Ejercicio 15:
+- Numerar automáticamente elementos de una lista
+- Usar forEach para recorrer y modificar
+- Útil para índices o numeraciones automáticas
+
+Ejercicio 16:
+- Crear una galería de imágenes desde un array
+- Primera vez que usamos datos JSON
+- Crear tarjetas para cada imagen
+
+Ejercicio 17:
+- Lo mismo pero pillando datos de una API real
+- Primera vez que usamos fetch
+- Mostrar usuarios en una lista
+
+Ejercicio 18:
+- Mostrar datos de usuarios en una tabla
+- Incluir datos anidados como la ciudad
+- Crear una tabla completa desde JS
+
+Ejercicio 19:
+- Filtrar usuarios que tengan web .biz
+- Mostrarlos en tarjetas de Bootstrap
+- Practicar filter y manipulación de datos
+
+Ejercicio 20:
+- El ejercicio final que junta todo
+- Cargar datos, mostrarlos, poder eliminarlos y clonarlos
+- Como un mini-CRUD con todo lo aprendido
+*/
+
 //Ejercicio 1: Acceso al DOM básico
 
 // Eliminar esta línea:
