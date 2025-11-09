@@ -1,13 +1,21 @@
 //Ejercicio 1: Acceso al DOM básico
 
-const { createElement } = require("react");
+// Eliminar esta línea:
+// const { createElement } = require("react");
 
-/*Crea una página con un <h1> y un párrafo.
-Desde JavaScript, cambia el texto del <h1> usando getElementById y el color del párrafo
-con getElementsByTagName.
-*/
-document.getElementById("miTitulo").innerText = "Nuevo Titulo desde JavaScript";
-document.getElementsByTagName("p")[0].style.color = "lightgreen";
+(function ejercicio1(){
+    // Verificar si los elementos existen
+    const titulo = document.getElementById("miTitulo");
+    const parrafo = document.getElementsByTagName("p")[0];
+
+    if (titulo) {
+        titulo.innerText = "Nuevo Titulo desde JavaScript";
+    }
+
+    if (parrafo) {
+        parrafo.style.color = "lightgreen";
+    }
+})();
 
 //Ejercicio 2: Modificación de varios elementos
 /*Crea tres párrafos con la clase texto.
@@ -30,9 +38,6 @@ gris.*/
         textos[i].style.margin = '4px 0';
     }
 })();
-
-
-
 
 //Ejercicio 3: Sección con querySelector
 /*
@@ -492,6 +497,9 @@ function ejercicio13(){
     });
 
     cont.appendChild(titulo);
+    cont.appendChild(btnAgregar);
+    cont.appendChild(lista);
+    document.body.appendChild(cont);
 };
 //Ejercicio 14: Eliminar último elemento
 /*Usa removeChild() o lastElementChild.remove() para eliminar el último elemento de la lista
@@ -578,9 +586,9 @@ function ejercicio15(){
     const items = document.querySelectorAll('.item');
     if(!items || items.length === 0)
         return;
-    items.forEach(Element, index) =>{
+    items.forEach((Element, index) => {
         Element.textContent = `Elemento $ {index + 1}`;
-    }
+    })
 };
 //Ejercicio 16: Crear una galería con JSON local
 /*Crea un array JSON con varios objetos:
