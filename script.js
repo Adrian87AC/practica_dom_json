@@ -1347,7 +1347,7 @@ function ejercicio20(){
     // Asignar eventos a los botones
     btnCargar.addEventListener('click', cargarUsuarios);
     btnClonar.addEventListener('click', clonarUltimo);
-
+    
     // Montar estructura final
     controles.appendChild(btnCargar);
     controles.appendChild(btnClonar);
