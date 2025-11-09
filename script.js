@@ -7,11 +7,9 @@
     // Verificar si los elementos existen
     const titulo = document.getElementById("miTitulo");
     const parrafo = document.getElementsByTagName("p")[0];
-
     if (titulo) {
         titulo.innerText = "Nuevo Titulo desde JavaScript";
     }
-
     if (parrafo) {
         parrafo.style.color = "lightgreen";
     }
@@ -603,10 +601,22 @@ Recórrelo con forEach() y genera una galería Bootstrap (card por imagen).
     if (document.getElementById('e16-container')) return;
 
     const imagenes = [
-        { titulo: "Montaña", url: "https://via.placeholder.com/300x200?text=Montaña" },
-        { titulo: "Lago", url: "https://via.placeholder.com/300x200?text=Lago" },
-        { titulo: "Bosque", url: "https://via.placeholder.com/300x200?text=Bosque" },
-        { titulo: "Ciudad", url: "https://via.placeholder.com/300x200?text=Ciudad" }
+        { 
+            titulo: "Montaña", 
+            url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop" 
+        },
+        { 
+            titulo: "Lago", 
+            url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500&h=300&fit=crop" 
+        },
+        { 
+            titulo: "Bosque", 
+            url: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=500&h=300&fit=crop" 
+        },
+        { 
+            titulo: "Ciudad", 
+            url: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&h=300&fit=crop" 
+        }
     ];
 
     const cont = document.createElement('div');
